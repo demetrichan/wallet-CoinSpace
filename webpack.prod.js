@@ -5,3 +5,4 @@ const TerserPlugin = require('terser-webpack-plugin');
 const autoprefixer = require('autoprefixer');
 const Dotenv = require('dotenv-webpack');
 const webpack = require('webpack');
+const { merge } = require('webpack-merge');
