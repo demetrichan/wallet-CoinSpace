@@ -9,3 +9,5 @@ const { merge } = require('webpack-merge');
 const common = require('./webpack.common.js');
 const path = require('path');
 const polyfills = ['core-js/stable', 'regenerator-runtime/runtime'];
+
+const envFile = process.env.ENV_FILE ? process.env.ENV_FILE : '.env.prod';
