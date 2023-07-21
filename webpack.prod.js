@@ -13,3 +13,5 @@ const polyfills = ['core-js/stable', 'regenerator-runtime/runtime'];
 const envFile = process.env.ENV_FILE ? process.env.ENV_FILE : '.env.prod';
 const WASM_JS_REGEXP = [
   /@emurgo\/cardano-serialization-lib-asmjs/,
+  /@emurgo\/cardano-serialization-lib-browser/,
+  /@coinspace\/monero-core-js-asm/,
