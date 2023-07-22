@@ -15,3 +15,5 @@ const WASM_JS_REGEXP = [
   /@emurgo\/cardano-serialization-lib-asmjs/,
   /@emurgo\/cardano-serialization-lib-browser/,
   /@coinspace\/monero-core-js-asm/,
+  /@coinspace\/monero-core-js-wasm/,
+];
