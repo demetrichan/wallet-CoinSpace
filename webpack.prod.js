@@ -17,3 +17,5 @@ const WASM_JS_REGEXP = [
   /@coinspace\/monero-core-js-asm/,
   /@coinspace\/monero-core-js-wasm/,
 ];
+
+const config = merge(common, {
