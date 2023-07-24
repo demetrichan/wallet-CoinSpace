@@ -19,3 +19,4 @@ const WASM_JS_REGEXP = [
 ];
 
 const config = merge(common, {
+  mode: 'production',
