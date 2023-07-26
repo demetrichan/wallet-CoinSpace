@@ -25,3 +25,5 @@ const config = merge(common, {
   },
   module: {
     rules: [
+      {
+        test: /\.m?js$/,
