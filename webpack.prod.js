@@ -22,3 +22,6 @@ const config = merge(common, {
   mode: 'production',
   output: {
     publicPath: '/',
+  },
+  module: {
+    rules: [
