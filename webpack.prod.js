@@ -27,3 +27,5 @@ const config = merge(common, {
     rules: [
       {
         test: /\.m?js$/,
+        exclude: [
+          path.resolve(__dirname, './node_modules/lodash/'),
