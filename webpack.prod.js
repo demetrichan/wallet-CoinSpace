@@ -29,3 +29,4 @@ const config = merge(common, {
         test: /\.m?js$/,
         exclude: [
           path.resolve(__dirname, './node_modules/lodash/'),
+          path.resolve(__dirname, './node_modules/core-js/'),
