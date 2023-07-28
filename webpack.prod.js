@@ -30,3 +30,4 @@ const config = merge(common, {
         exclude: [
           path.resolve(__dirname, './node_modules/lodash/'),
           path.resolve(__dirname, './node_modules/core-js/'),
+          path.resolve(__dirname, './node_modules/regenerator-runtime/'),
