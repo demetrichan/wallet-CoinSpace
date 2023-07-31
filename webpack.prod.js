@@ -35,3 +35,4 @@ const config = merge(common, {
           /\.asm\.js$/,
         ],
         use: {
+          loader: 'babel-loader',
