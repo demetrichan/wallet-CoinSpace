@@ -36,3 +36,8 @@ const config = merge(common, {
         ],
         use: {
           loader: 'babel-loader',
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              ['@babel/preset-env', { useBuiltIns: 'usage', corejs: '3.0' }],
+            ],
