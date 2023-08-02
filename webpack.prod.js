@@ -41,3 +41,5 @@ const config = merge(common, {
             presets: [
               ['@babel/preset-env', { useBuiltIns: 'usage', corejs: '3.0' }],
             ],
+            plugins: [
+              '@babel/plugin-proposal-class-properties',
