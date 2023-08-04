@@ -45,3 +45,5 @@ const config = merge(common, {
               '@babel/plugin-proposal-class-properties',
               '@babel/plugin-proposal-private-methods',
             ],
+            sourceType: 'unambiguous',
+          },
