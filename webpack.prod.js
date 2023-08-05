@@ -47,3 +47,7 @@ const config = merge(common, {
             ],
             sourceType: 'unambiguous',
           },
+        },
+      },
+      {
+        test: /\.(sass|scss)$/,
