@@ -51,3 +51,6 @@ const config = merge(common, {
       },
       {
         test: /\.(sass|scss)$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
