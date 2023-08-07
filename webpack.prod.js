@@ -54,3 +54,5 @@ const config = merge(common, {
         use: [
           MiniCssExtractPlugin.loader,
           {
+            loader: 'css-loader',
+            options: {
