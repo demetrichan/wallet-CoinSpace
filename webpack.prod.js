@@ -56,3 +56,6 @@ const config = merge(common, {
           {
             loader: 'css-loader',
             options: {
+              sourceMap: false,
+            },
+          },
