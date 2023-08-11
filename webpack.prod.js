@@ -59,3 +59,5 @@ const config = merge(common, {
               sourceMap: false,
             },
           },
+          {
+            loader: 'postcss-loader',
