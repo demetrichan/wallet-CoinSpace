@@ -61,3 +61,6 @@ const config = merge(common, {
           },
           {
             loader: 'postcss-loader',
+            options: {
+              postcssOptions: {
+                plugins: [
