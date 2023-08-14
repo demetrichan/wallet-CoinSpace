@@ -64,3 +64,9 @@ const config = merge(common, {
             options: {
               postcssOptions: {
                 plugins: [
+                  autoprefixer,
+                ],
+              },
+            },
+          },
+          'sass-loader',
