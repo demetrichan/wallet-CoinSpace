@@ -70,3 +70,5 @@ const config = merge(common, {
             },
           },
           'sass-loader',
+        ],
+      },
