@@ -78,3 +78,5 @@ const config = merge(common, {
     new webpack.ProgressPlugin(),
     new Dotenv({
       path: envFile,
+      safe: true,
+      systemvars: true,
