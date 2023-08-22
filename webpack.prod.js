@@ -80,3 +80,5 @@ const config = merge(common, {
       path: envFile,
       safe: true,
       systemvars: true,
+    }),
+    new MiniCssExtractPlugin({
