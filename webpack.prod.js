@@ -82,3 +82,5 @@ const config = merge(common, {
       systemvars: true,
     }),
     new MiniCssExtractPlugin({
+      filename: 'assets/css/all.[contenthash:8].css',
+    }),
