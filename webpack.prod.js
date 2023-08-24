@@ -84,3 +84,5 @@ const config = merge(common, {
     new MiniCssExtractPlugin({
       filename: 'assets/css/all.[contenthash:8].css',
     }),
+    new webpack.SourceMapDevToolPlugin({
+      filename: 'assets/js/[name].[fullhash:8].js.map',
