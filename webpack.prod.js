@@ -86,3 +86,6 @@ const config = merge(common, {
     }),
     new webpack.SourceMapDevToolPlugin({
       filename: 'assets/js/[name].[fullhash:8].js.map',
+      exclude: [...WASM_JS_REGEXP],
+    }),
+  ],
