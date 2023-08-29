@@ -89,3 +89,6 @@ const config = merge(common, {
       exclude: [...WASM_JS_REGEXP],
     }),
   ],
+  optimization: {
+    minimize: true,
+    minimizer: [
