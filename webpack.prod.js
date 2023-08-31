@@ -94,3 +94,5 @@ const config = merge(common, {
     minimizer: [
       new CssMinimizerPlugin(),
       new TerserPlugin({
+        terserOptions: {
+          format: {
