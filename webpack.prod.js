@@ -96,3 +96,6 @@ const config = merge(common, {
       new TerserPlugin({
         terserOptions: {
           format: {
+            comments: false,
+          },
+          mangle: {
