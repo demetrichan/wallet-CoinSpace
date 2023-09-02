@@ -99,3 +99,4 @@ const config = merge(common, {
             comments: false,
           },
           mangle: {
+            reserved: ['BigInteger', 'ECPair', 'Point', '_', 'RippleError', 'RippledError', 'UnexpectedError',
