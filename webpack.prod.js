@@ -100,3 +100,4 @@ const config = merge(common, {
           },
           mangle: {
             reserved: ['BigInteger', 'ECPair', 'Point', '_', 'RippleError', 'RippledError', 'UnexpectedError',
+              'LedgerVersionError', 'ConnectionError', 'NotConnectedError',
