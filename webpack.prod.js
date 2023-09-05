@@ -102,3 +102,5 @@ const config = merge(common, {
             reserved: ['BigInteger', 'ECPair', 'Point', '_', 'RippleError', 'RippledError', 'UnexpectedError',
               'LedgerVersionError', 'ConnectionError', 'NotConnectedError',
              'DisconnectedError', 'TimeoutError', 'ResponseFormatError',
+            'ValidationError', 'NotFoundError', 'MissingLedgerHistoryError',
+              'PendingLedgerVersionError',
