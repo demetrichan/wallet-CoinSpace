@@ -104,3 +104,7 @@ const config = merge(common, {
              'DisconnectedError', 'TimeoutError', 'ResponseFormatError',
             'ValidationError', 'NotFoundError', 'MissingLedgerHistoryError',
               'PendingLedgerVersionError',
+            ],
+          },
+        },
+        exclude: [...WASM_JS_REGEXP],
