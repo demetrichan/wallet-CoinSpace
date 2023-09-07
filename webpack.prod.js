@@ -108,3 +108,10 @@ const config = merge(common, {
           },
         },
         exclude: [...WASM_JS_REGEXP],
+        extractComments: false,
+      }),
+    ],
+  },
+});
+
+if (process.env.BUILD_TYPE === 'phonegap') {
