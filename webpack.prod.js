@@ -115,3 +115,6 @@ const config = merge(common, {
 });
 
 if (process.env.BUILD_TYPE === 'phonegap') {
+  const htmlPlugin = config.plugins.find((plugin) => {
+    return plugin instanceof HtmlWebpackPlugin;
+  });
