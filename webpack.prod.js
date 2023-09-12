@@ -118,3 +118,7 @@ if (process.env.BUILD_TYPE === 'phonegap') {
   const htmlPlugin = config.plugins.find((plugin) => {
     return plugin instanceof HtmlWebpackPlugin;
   });
+  htmlPlugin.userOptions.chunks = ['deviceready'];
+
+  config.entry['deviceready'] = polyfills.concat('./phonegap/deviceready.js');
+  delete config.entry['loader'];
