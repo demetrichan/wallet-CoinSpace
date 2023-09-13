@@ -122,3 +122,6 @@ if (process.env.BUILD_TYPE === 'phonegap') {
 
   config.entry['deviceready'] = polyfills.concat('./phonegap/deviceready.js');
   delete config.entry['loader'];
+
+  config.output.publicPath = '';
+} else if (process.env.BUILD_TYPE === 'electron') {
