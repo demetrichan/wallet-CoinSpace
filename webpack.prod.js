@@ -125,3 +125,5 @@ if (process.env.BUILD_TYPE === 'phonegap') {
 
   config.output.publicPath = '';
 } else if (process.env.BUILD_TYPE === 'electron') {
+  config.plugins.push(new HtmlWebpackPlugin({
+    inject: false,
