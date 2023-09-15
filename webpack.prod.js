@@ -127,3 +127,5 @@ if (process.env.BUILD_TYPE === 'phonegap') {
 } else if (process.env.BUILD_TYPE === 'electron') {
   config.plugins.push(new HtmlWebpackPlugin({
     inject: false,
+    template: 'electron/env.ejs',
+    filename: 'env.json',
