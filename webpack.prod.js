@@ -129,3 +129,5 @@ if (process.env.BUILD_TYPE === 'phonegap') {
     inject: false,
     template: 'electron/env.ejs',
     filename: 'env.json',
+  }));
+  config.output.publicPath = './';
