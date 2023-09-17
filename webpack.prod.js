@@ -131,3 +131,6 @@ if (process.env.BUILD_TYPE === 'phonegap') {
     filename: 'env.json',
   }));
   config.output.publicPath = './';
+}
+
+module.exports = config;
