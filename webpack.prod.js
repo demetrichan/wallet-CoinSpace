@@ -134,3 +134,5 @@ if (process.env.BUILD_TYPE === 'phonegap') {
 }
 
 module.exports = config;
+               ],
+              },
