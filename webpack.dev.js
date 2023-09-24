@@ -8,3 +8,6 @@ const path = require('path');
 
 const dotEnv = new Dotenv({
   path: '.env.loc',
+  safe: true,
+  defaults: true,
+});
