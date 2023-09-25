@@ -11,3 +11,6 @@ const dotEnv = new Dotenv({
   safe: true,
   defaults: true,
 });
+
+module.exports = merge(common, {
+  mode: 'development',
