@@ -16,3 +16,6 @@ module.exports = merge(common, {
   mode: 'development',
   snapshot: {
     managedPaths: [path.resolve(__dirname, '../node_modules')],
+  },
+  target: 'web',
+  output: {
