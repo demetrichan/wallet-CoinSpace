@@ -19,3 +19,5 @@ module.exports = merge(common, {
   },
   target: 'web',
   output: {
+    publicPath: '/',
+  },
