@@ -21,3 +21,5 @@ module.exports = merge(common, {
   output: {
     publicPath: '/',
   },
+  devServer: {
+    open: true,
