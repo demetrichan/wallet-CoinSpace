@@ -23,3 +23,5 @@ module.exports = merge(common, {
   },
   devServer: {
     open: true,
+    allowedHosts: 'all',
+    static: false,
