@@ -25,3 +25,5 @@ module.exports = merge(common, {
     open: true,
     allowedHosts: 'all',
     static: false,
+    hot: true,
+    port: 8000,
