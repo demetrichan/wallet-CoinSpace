@@ -27,3 +27,5 @@ module.exports = merge(common, {
     static: false,
     hot: true,
     port: 8000,
+    proxy: {
+      '/api': {
