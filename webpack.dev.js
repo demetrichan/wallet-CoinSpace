@@ -30,3 +30,5 @@ module.exports = merge(common, {
     proxy: {
       '/api': {
         target: 'http://localhost:8080',
+        pathRewrite: {
+          '^/api/v3': '/api/v3',
