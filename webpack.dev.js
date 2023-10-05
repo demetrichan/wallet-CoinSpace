@@ -32,3 +32,4 @@ module.exports = merge(common, {
         target: 'http://localhost:8080',
         pathRewrite: {
           '^/api/v3': '/api/v3',
+          '^/api/v2': '/api/v2',
