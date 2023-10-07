@@ -34,3 +34,5 @@ module.exports = merge(common, {
           '^/api/v3': '/api/v3',
           '^/api/v2': '/api/v2',
           '^/api/v1': '/api/v1',
+          '^/api': '',
+        },
