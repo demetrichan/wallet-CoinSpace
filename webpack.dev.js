@@ -43,3 +43,5 @@ module.exports = merge(common, {
     rules: [
       {
         test: /\.(sass|scss)$/,
+        use: [
+          {
