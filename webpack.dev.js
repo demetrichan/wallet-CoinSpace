@@ -45,3 +45,4 @@ module.exports = merge(common, {
         test: /\.(sass|scss)$/,
         use: [
           {
+            loader: 'style-loader',
