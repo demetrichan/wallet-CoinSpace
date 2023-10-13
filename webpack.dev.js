@@ -49,3 +49,6 @@ module.exports = merge(common, {
           },
           {
             loader: 'css-loader',
+          },
+          {
+            loader: 'postcss-loader',
