@@ -55,3 +55,5 @@ module.exports = merge(common, {
             options: {
               postcssOptions: {
                 plugins: [
+                  autoprefixer,
+                ],
