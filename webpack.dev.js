@@ -57,3 +57,6 @@ module.exports = merge(common, {
                 plugins: [
                   autoprefixer,
                 ],
+              },
+            },
+          },
