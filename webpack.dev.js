@@ -65,3 +65,6 @@ module.exports = merge(common, {
           },
         ],
       },
+    ],
+  },
+  plugins: [
