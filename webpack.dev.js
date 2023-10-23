@@ -68,3 +68,5 @@ module.exports = merge(common, {
     ],
   },
   plugins: [
+    dotEnv,
+    new webpack.DefinePlugin({
