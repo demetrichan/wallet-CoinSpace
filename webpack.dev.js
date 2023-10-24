@@ -70,3 +70,4 @@ module.exports = merge(common, {
   plugins: [
     dotEnv,
     new webpack.DefinePlugin({
+      'process.env.BUILD_TYPE': JSON.stringify('web'),
