@@ -72,3 +72,4 @@ module.exports = merge(common, {
     new webpack.DefinePlugin({
       'process.env.BUILD_TYPE': JSON.stringify('web'),
       'process.env.BUILD_PLATFORM': JSON.stringify('web'),
+      'process.env.PLATFORM': JSON.stringify('web-web'),
