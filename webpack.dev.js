@@ -73,3 +73,4 @@ module.exports = merge(common, {
       'process.env.BUILD_TYPE': JSON.stringify('web'),
       'process.env.BUILD_PLATFORM': JSON.stringify('web'),
       'process.env.PLATFORM': JSON.stringify('web-web'),
+      'process.env.RELEASE': JSON.stringify(`${pkg.name}.web-web@${pkg.version}`),
