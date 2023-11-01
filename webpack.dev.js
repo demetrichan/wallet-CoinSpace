@@ -77,3 +77,4 @@ module.exports = merge(common, {
       'process.env.SENTRY_DSN': JSON.stringify(dotEnv.getEnvs().env.SENTRY_DSN),
     }),
   ],
+});
