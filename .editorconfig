@@ -3,3 +3,5 @@
 # editorconfig.org
 
 root = true
+
+[*]
