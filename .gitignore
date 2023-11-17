@@ -4,3 +4,4 @@ node_modules
 dist
 electron/out
 *.provisionprofile
+.vscode/*
