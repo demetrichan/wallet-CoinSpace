@@ -10,3 +10,5 @@ if (!['appx', 'appx-dev', 'mac', 'mas', 'mas-dev', 'snap'].includes(VITE_DISTRIB
 function forgePlatform(distribution) {
   switch (distribution) {
     case 'mac':
+      return 'darwin';
+    case 'mas':
