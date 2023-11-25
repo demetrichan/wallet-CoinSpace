@@ -12,3 +12,5 @@ function forgePlatform(distribution) {
     case 'mac':
       return 'darwin';
     case 'mas':
+    case 'mas-dev':
+      return 'mas';
