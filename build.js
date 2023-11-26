@@ -14,3 +14,5 @@ function forgePlatform(distribution) {
     case 'mas':
     case 'mas-dev':
       return 'mas';
+    case 'appx':
+    case 'appx-dev':
