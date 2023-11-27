@@ -16,3 +16,5 @@ function forgePlatform(distribution) {
       return 'mas';
     case 'appx':
     case 'appx-dev':
+      return 'win32';
+    case 'snap':
