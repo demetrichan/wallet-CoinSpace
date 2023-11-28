@@ -18,3 +18,5 @@ function forgePlatform(distribution) {
     case 'appx-dev':
       return 'win32';
     case 'snap':
+      return 'linux';
+    default:
