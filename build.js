@@ -20,3 +20,5 @@ function forgePlatform(distribution) {
     case 'snap':
       return 'linux';
     default:
+      return distribution;
+  }
