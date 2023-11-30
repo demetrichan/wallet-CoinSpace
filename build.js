@@ -22,3 +22,6 @@ function forgePlatform(distribution) {
     default:
       return distribution;
   }
+}
+
+console.log(`Start build (electron:${VITE_DISTRIBUTION})...`);
